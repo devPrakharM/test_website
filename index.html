@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakhar Mishra</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: #58a6ff;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: normal;
+            margin: 30px 0 15px 0;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 5px;
+        }
+
+        .latest-section {
+            margin-bottom: 30px;
+        }
+
+        .latest-item {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .latest-item a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        .latest-item a:hover {
+            text-decoration: underline;
+        }
+
+        .timeline-section {
+            margin-top: 30px;
+        }
+
+        .timeline-item {
+            margin-bottom: 12px;
+            font-size: 14px;
+            padding-left: 15px;
+            border-left: 2px solid #30363d;
+        }
+
+        .timeline-date {
+            color: #7d8590;
+            font-size: 12px;
+        }
+
+        .timeline-content {
+            margin-top: 2px;
+        }
+
+        .timeline-content a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        .timeline-content a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prakhar Mishra</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#blog">Blog</a>
+            <a href="#projects">Projects</a>
+            <a href="#readings">Readings</a>
+            <a href="#twitter">X (Twitter)</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h1>Hi I am Prakhar!</h1>
+        </section>
+
+        <section class="latest-section">
+            <h2>Latest:</h2>
+            <div class="latest-item">
+                <a href="#latest-post-1">Understanding Distributed Systems: A Deep Dive</a> - Blog
+            </div>
+            <div class="latest-item">
+                <a href="#latest-post-2">Building a Compiler from Scratch</a> - Projects
+            </div>
+            <div class="latest-item">
+                <a href="#latest-post-3">Notes on "The Art of Computer Programming"</a> - Readings
+            </div>
+        </section>
+
+        <section class="timeline-section">
+            <h2>Timeline</h2>
+            <div class="timeline-item">
+                <div class="timeline-date">2024-12-01</div>
+                <div class="timeline-content">
+                    Published new blog post: <a href="#blog-post">Understanding Distributed Systems</a>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2024-11-28</div>
+                <div class="timeline-content">
+                    Added new project: <a href="#project">Compiler Implementation in C</a>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2024-11-25</div>
+                <div class="timeline-content">
+                    Updated reading notes: <a href="#reading">SICP Chapter 3 Analysis</a>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2024-11-20</div>
+                <div class="timeline-content">
+                    Published blog post: <a href="#blog-post">Memory Management Techniques</a>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2024-11-15</div>
+                <div class="timeline-content">
+                    Added new project: <a href="#project">Graph Algorithm Visualizer</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
